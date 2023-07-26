@@ -12,7 +12,6 @@ export const MainContainer = styled.main`
 
 
 export const MaxWidthContainer = styled.div`
-  max-width: 1444px;
 `;
 
 

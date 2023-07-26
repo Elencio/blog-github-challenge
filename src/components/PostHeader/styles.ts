@@ -13,6 +13,14 @@ export const PostHeaderContainer = styled.div`
   background-color: ${(props) => props.theme['base-profile']};
   padding: 2rem;
   color: ${(props) => props.theme['base-title']};
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
 `;
 
 export const BackLink = styled(Link)`
@@ -66,7 +74,7 @@ export const InfoItem = styled.div`
   align-items: center;
 
   img {
-    width: 1rem; /* Adjust the width of the icon as needed */
+    width: 1rem; 
     color: ${(props) => props.theme['base-blue']};
   }
 `;
@@ -76,10 +84,19 @@ export const Content = styled.div`
   flex-direction: row;
   justify-content: space-between;
 
+  @media (max-width: 768px) {
+    flex-direction: row;
+    gap: 1rem; 
+  }
+
 `
 
 export const ContentDetails = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+
+  @media (max-width: 768px) {
+    gap: 1rem; /* Aumentar o espaço entre os elementos para telas menores */
+  }
 `

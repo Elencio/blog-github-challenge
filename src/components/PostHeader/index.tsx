@@ -1,12 +1,12 @@
-import linkIcon from '../assets/icons/link.svg';
-import backIcon from '../assets/icons/back.svg';
-import githubIcon from '../assets/icons/github.svg';
-import calendarIcon from '../assets/icons/calendar.svg';
-import commentIcon from '../assets/icons/comment.svg';
+import linkIcon from '../../assets/icons/link.svg';
+import backIcon from '../../assets/icons/back.svg';
+import githubIcon from '../../assets/icons/github.svg';
+import calendarIcon from '../../assets/icons/calendar.svg';
+import commentIcon from '../../assets/icons/comment.svg';
 
-import { PostDetailsData } from '../pages/PostDetails';
-import { formatDateFromNow } from '../utils/format';
-import { BackLink, GithubLink, InfoItem, InfoRow, PostHeaderContainer, PostTitle, Content, ContentDetails } from "./stylesPost"
+import { PostDetailsData } from '../../pages/PostDetails';
+import { formatDateFromNow } from '../../utils/format';
+import { BackLink, GithubLink, InfoItem, InfoRow, PostHeaderContainer, PostTitle, Content, ContentDetails } from "./styles"
 
 
 

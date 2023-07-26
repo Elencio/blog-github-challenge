@@ -1,5 +1,7 @@
-import { Post, PostCardProps } from './Post';
-import styled from 'styled-components';
+
+import { Post, PostCardProps } from '../Posts';
+import { PostsContainer } from './styles';
+
 
 
 export interface PostsData {
@@ -12,13 +14,7 @@ interface PostsProps {
 }
 
 
-const PostsContainer = styled.div`
-  display: grid;
-  width: 864px; 
-  grid-template-columns: repeat(auto-fit, minmax(416px, 2fr));
-  gap: 2rem;
-  padding: 3rem 0; 
-`;
+
 
 export function Posts({ posts }: PostsProps) {
   return (
