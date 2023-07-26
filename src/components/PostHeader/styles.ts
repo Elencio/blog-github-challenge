@@ -51,7 +51,7 @@ export const GithubLink = styled.a`
   text-decoration: none;
 
   img {
-    width: 1rem; /* Adjust the width of the icon as needed */
+    width: 1rem;
     color: ${(props) => props.theme['base-blue']};
   }
 `;
@@ -97,6 +97,6 @@ export const ContentDetails = styled.div`
   gap: 0.5rem;
 
   @media (max-width: 768px) {
-    gap: 1rem; /* Aumentar o espaço entre os elementos para telas menores */
+    gap: 1rem; 
   }
 `
